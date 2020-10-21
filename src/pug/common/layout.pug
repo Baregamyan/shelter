@@ -1,0 +1,11 @@
+doctype html
+block vars
+html(lang="ru")
+  include head
+  body.nojs
+    include svg
+    include /blocks/header
+    main
+      block content
+    include /blocks/footer
+    script(src="js/index.js")
