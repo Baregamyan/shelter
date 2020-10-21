@@ -1,0 +1,17 @@
+section.pets
+  .pets__wrapper
+    h2.pets__title #{pets.title}
+    .pets__slider.swiper-container
+      ul.pets__wrapper.swiper-wrapper
+        each pet in pets.list
+          li.pets__card.swiper-slide
+            h3.pets__name #{pet.name}
+            img.pets__photo(src=pet.src width=pet.img.width height=pet.img.height alt=pet.img.alt)
+            a.button.pets__more-link(href=pet.href) Learn more
+      .pets__controls
+        each control in pets.controls
+          button.pets__control(class=`pets__control--${control.direction}` type="button" aria-label=control.aria.label)
+      a.button.button--solid.pets__button(href=pets.button.href) #{pets.button.text}
+
+
+

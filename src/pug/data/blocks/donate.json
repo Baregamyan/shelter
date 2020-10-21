@@ -1,0 +1,17 @@
+{
+  "donate": {
+    "title": "You can also make a donation",
+    "desc": "Name of the bank / Type of bank account",
+    "link": {
+      "href": "#nowhere",
+      "text": "8380 2880 8028 8791 7435"
+    },
+    "terms": "Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+    "img": {
+      "src": "#nowhere",
+      "width": "",
+      "height": "",
+      "alt": ""
+    }
+  }
+}

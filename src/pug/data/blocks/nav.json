@@ -4,7 +4,19 @@
       "label": "Главная навигация"
     },
     "list": [
-
+      {
+        "href": "#nowhere",
+        "name": "About the shelter"
+      }, {
+        "href": "#nowhere",
+        "name": "Our pets"
+      }, {
+        "href": "#nowhere",
+        "name": "Help the shelter"
+      }, {
+        "href": "#nowhere",
+        "name": "Contacts"
+      }
     ]
   }
 }

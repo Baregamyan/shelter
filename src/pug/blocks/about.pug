@@ -1,0 +1,8 @@
+section#about.about
+  .about__wrapper
+    .about__desc
+      h2.title.about__title #{about.title}
+      each paragraph in about.paragraphs
+        p.about__text #{paragraph.text}
+    img.about__img(width=about.img.width height=about.img.height alt=about.img.alt)
+

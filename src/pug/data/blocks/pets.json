@@ -1,0 +1,50 @@
+{
+  "pets": {
+    "title": "Our friends who are looking for a house",
+    "list": [
+      {
+        "name": "Katrine",
+        "href": "#nowhere",
+        "img": {
+          "src": "#nowhere",
+          "width": "",
+          "height": "",
+          "alt": "Katerine"
+        }
+      }, {
+        "name": "Jennifer",
+        "href": "#nowhere",
+        "img": {
+          "width": "",
+          "height": "",
+          "alt": "Jennifer"
+        }
+      }, {
+        "name": "Woody",
+        "href": "#nowhere",
+        "img": {
+          "width": "",
+          "height": "",
+          "alt": "Katerine"
+        }
+      }
+    ],
+    "controls": [
+      {
+        "direction": "prev",
+        "aria": {
+          "label": "Move left"
+        }
+      }, {
+        "direction": "next",
+        "aria": {
+          "label": "Move right"
+        }
+      }
+    ],
+    "button": {
+      "href": "#nowhere",
+      "text": "Get to know the rest"
+    }
+  }
+}

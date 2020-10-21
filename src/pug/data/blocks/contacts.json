@@ -1,0 +1,39 @@
+{
+  "contacts": {
+    "list": [
+      {
+        "title": "For questions and suggestions",
+        "contentList": [
+          {
+            "href": "#nowhere",
+            "text": "email@shelter.com",
+            "modifyer": "email"
+          }, {
+            "href": "#nowhere",
+            "text": "+13 674 567 75 54",
+            "modifyer": "email"
+          }
+        ]
+      }, {
+        "title": "We are waiting for your visit",
+        "contentList": [
+          {
+            "href": "#nowhere",
+            "text": "1 Central Street, Boston (entrance from the store)",
+            "modifyer": "location"
+          }, {
+            "href": "#nowhere",
+            "text": "18 South Park, London",
+            "modifyer": "location"
+          }
+        ]
+      }
+    ],
+    "img": {
+      "src": "#nowhere",
+      "width": "",
+      "height": "",
+      "alt": ""
+    }
+  }
+}

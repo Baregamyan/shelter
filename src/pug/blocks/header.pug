@@ -1,4 +1,16 @@
 header.header
-  include ../blocks/nav
-   button.header__trigger(type="button" aria-label=header.trigger.aria.label aria-haspopup=header.trigger.aria.haspopup aria-expanded=header.trigger.aria.expanded)
+  .header__navigation
+    h1.header__title
+      b.header__title-name #{header.title.name}
+      p.header__title-desc #{header.title.desc}
+    include ../blocks/nav
+    button.header__trigger(type="button" aria-label=header.trigger.aria.label aria-haspopup=header.trigger.aria.haspopup aria-expanded=header.trigger.aria.expanded)
       span.header__burger
+  .header__content
+    .header__desc
+      h2.title.title--white.title--big.header__subtitle #{header.content.title}
+      p.header__text #{header.content.text}
+      a.button.header__button(href=header.content.button.href) #{header.content.button.text}
+    img.header__image(width=header.content.img.width height=header.content.img.height alt=header.content.img.alt)
+
+

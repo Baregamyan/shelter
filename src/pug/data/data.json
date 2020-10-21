@@ -1,8 +1,96 @@
 {
+	"about": {
+		"title": "About the shelter “Cozy House”",
+		"paragraphs": [
+			{
+				"text": "Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved."
+			},
+			{
+				"text": "We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone."
+			}
+		],
+		"img": {
+			"width": "",
+			"height": "",
+			"alt": ""
+		}
+	},
+	"contacts": {
+		"list": [
+			{
+				"title": "For questions and suggestions",
+				"contentList": [
+					{
+						"href": "#nowhere",
+						"text": "email@shelter.com",
+						"modifyer": "email"
+					},
+					{
+						"href": "#nowhere",
+						"text": "+13 674 567 75 54",
+						"modifyer": "email"
+					}
+				]
+			},
+			{
+				"title": "We are waiting for your visit",
+				"contentList": [
+					{
+						"href": "#nowhere",
+						"text": "1 Central Street, Boston (entrance from the store)",
+						"modifyer": "location"
+					},
+					{
+						"href": "#nowhere",
+						"text": "18 South Park, London",
+						"modifyer": "location"
+					}
+				]
+			}
+		],
+		"img": {
+			"src": "#nowhere",
+			"width": "",
+			"height": "",
+			"alt": ""
+		}
+	},
+	"donate": {
+		"title": "You can also make a donation",
+		"desc": "Name of the bank / Type of bank account",
+		"link": {
+			"href": "#nowhere",
+			"text": "8380 2880 8028 8791 7435"
+		},
+		"terms": "Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+		"img": {
+			"src": "#nowhere",
+			"width": "",
+			"height": "",
+			"alt": ""
+		}
+	},
 	"footer": {
 		"socials": {}
 	},
 	"header": {
+		"title": {
+			"name": "Cozy House",
+			"descr": "Shelter for pets in Boston"
+		},
+		"content": {
+			"title": "Not only people need a house",
+			"text": "We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!",
+			"button": {
+				"text": "Make a friend",
+				"href": "#nowhere"
+			},
+			"img": {
+				"width": "",
+				"height": "",
+				"alt": ""
+			}
+		},
 		"trigger": {
 			"aria": {
 				"label": "Открыть меню навигации",
@@ -10,6 +98,92 @@
 				"haspopup": "true"
 			}
 		}
+	},
+	"help": {
+		"title": "How you can help our shelter",
+		"list": [
+			{
+				"name": "Pet food",
+				"svg": {
+					"id": "food",
+					"width": "48",
+					"height": "60",
+					"viewbox": ""
+				}
+			},
+			{
+				"name": "Transportation",
+				"svg": {
+					"id": "transportation",
+					"width": "59",
+					"height": "60",
+					"viewbox": ""
+				}
+			},
+			{
+				"name": "Toys",
+				"svg": {
+					"id": "toys",
+					"width": "60",
+					"height": "60",
+					"viewbox": ""
+				}
+			},
+			{
+				"name": "Bowls and cups",
+				"svg": {
+					"id": "bowls",
+					"width": "60",
+					"height": "56",
+					"viewbox": ""
+				}
+			},
+			{
+				"name": "Shampoos",
+				"svg": {
+					"id": "shampoos",
+					"width": "31",
+					"height": "50",
+					"viewbox": ""
+				}
+			},
+			{
+				"name": "Vitamins",
+				"svg": {
+					"id": "vitamins",
+					"width": "60",
+					"height": "54",
+					"viewbox": ""
+				}
+			},
+			{
+				"name": "Medicines",
+				"svg": {
+					"id": "medicines",
+					"width": "60",
+					"height": "60",
+					"viewbox": ""
+				}
+			},
+			{
+				"name": "Collars / leashes",
+				"svg": {
+					"id": "collars",
+					"width": "60",
+					"height": "52",
+					"viewbox": ""
+				}
+			},
+			{
+				"name": "Sleeping areas",
+				"svg": {
+					"id": "sleepPlace",
+					"width": "58",
+					"height": "60",
+					"viewbox": ""
+				}
+			}
+		]
 	},
 	"menu": [
 		{
@@ -21,6 +195,74 @@
 		"aria": {
 			"label": "Главная навигация"
 		},
-		"list": []
+		"list": [
+			{
+				"href": "#nowhere",
+				"name": "About the shelter"
+			},
+			{
+				"href": "#nowhere",
+				"name": "Our pets"
+			},
+			{
+				"href": "#nowhere",
+				"name": "Help the shelter"
+			},
+			{
+				"href": "#nowhere",
+				"name": "Contacts"
+			}
+		]
+	},
+	"pets": {
+		"title": "Our friends who are looking for a house",
+		"list": [
+			{
+				"name": "Katrine",
+				"href": "#nowhere",
+				"img": {
+					"src": "#nowhere",
+					"width": "",
+					"height": "",
+					"alt": "Katerine"
+				}
+			},
+			{
+				"name": "Jennifer",
+				"href": "#nowhere",
+				"img": {
+					"width": "",
+					"height": "",
+					"alt": "Jennifer"
+				}
+			},
+			{
+				"name": "Woody",
+				"href": "#nowhere",
+				"img": {
+					"width": "",
+					"height": "",
+					"alt": "Katerine"
+				}
+			}
+		],
+		"controls": [
+			{
+				"direction": "prev",
+				"aria": {
+					"label": "Move left"
+				}
+			},
+			{
+				"direction": "next",
+				"aria": {
+					"label": "Move right"
+				}
+			}
+		],
+		"button": {
+			"href": "#nowhere",
+			"text": "Get to know the rest"
+		}
 	}
 }
