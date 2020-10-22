@@ -2,7 +2,7 @@ header.header
   .header__navigation
     h1.header__title
       b.header__title-name #{header.title.name}
-      p.header__title-desc #{header.title.desc}
+      small.header__title-desc #{header.title.desc}
     include ../blocks/nav
     button.header__trigger(type="button" aria-label=header.trigger.aria.label aria-haspopup=header.trigger.aria.haspopup aria-expanded=header.trigger.aria.expanded)
       span.header__burger
