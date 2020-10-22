@@ -2,7 +2,7 @@
   "header": {
     "title": {
       "name": "Cozy House",
-      "descr": "Shelter for pets in Boston"
+      "desc": "Shelter for pets in Boston"
     },
     "content": {
       "title": "Not only people need a house",
@@ -12,9 +12,11 @@
         "href": "#nowhere"
       },
       "img": {
-        "width": "",
-        "height": "",
-        "alt": ""
+        "name": "start-screen-puppy",
+        "format": "png",
+        "width": "698",
+        "height": "728",
+        "alt": "Puppy photo"
       }
     },
     "trigger": {

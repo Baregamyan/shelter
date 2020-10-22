@@ -8,10 +8,11 @@
     },
     "terms": "Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
     "img": {
-      "src": "#nowhere",
-      "width": "",
-      "height": "",
-      "alt": ""
+      "name": "donation-dog",
+      "format": "png",
+      "width": "505",
+      "height": "261",
+      "alt": "Puppy waiting for your donation"
     }
   }
 }

@@ -10,9 +10,11 @@
 			}
 		],
 		"img": {
-			"width": "",
-			"height": "",
-			"alt": ""
+			"name": "about-pets",
+			"format": "png",
+			"width": "300",
+			"height": "408",
+			"alt": "Dog with cat"
 		}
 	},
 	"contacts": {
@@ -47,13 +49,7 @@
 					}
 				]
 			}
-		],
-		"img": {
-			"src": "#nowhere",
-			"width": "",
-			"height": "",
-			"alt": ""
-		}
+		]
 	},
 	"donate": {
 		"title": "You can also make a donation",
@@ -64,19 +60,27 @@
 		},
 		"terms": "Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		"img": {
-			"src": "#nowhere",
-			"width": "",
-			"height": "",
-			"alt": ""
+			"name": "donation-dog",
+			"format": "png",
+			"width": "505",
+			"height": "261",
+			"alt": "Puppy waiting for your donation"
 		}
 	},
 	"footer": {
-		"socials": {}
+		"title": "Our contacts",
+		"img": {
+			"name": "fotter-puppy",
+			"format": "png",
+			"width": "300",
+			"height": "310",
+			"alt": "Puppy in footer"
+		}
 	},
 	"header": {
 		"title": {
 			"name": "Cozy House",
-			"descr": "Shelter for pets in Boston"
+			"desc": "Shelter for pets in Boston"
 		},
 		"content": {
 			"title": "Not only people need a house",
@@ -86,9 +90,11 @@
 				"href": "#nowhere"
 			},
 			"img": {
-				"width": "",
-				"height": "",
-				"alt": ""
+				"name": "start-screen-puppy",
+				"format": "png",
+				"width": "698",
+				"height": "728",
+				"alt": "Puppy photo"
 			}
 		},
 		"trigger": {
@@ -105,82 +111,55 @@
 			{
 				"name": "Pet food",
 				"svg": {
-					"id": "food",
-					"width": "48",
-					"height": "60",
-					"viewbox": ""
+					"id": "icon-pet-food"
 				}
 			},
 			{
 				"name": "Transportation",
 				"svg": {
-					"id": "transportation",
-					"width": "59",
-					"height": "60",
-					"viewbox": ""
+					"id": "icon-transportation"
 				}
 			},
 			{
 				"name": "Toys",
 				"svg": {
-					"id": "toys",
-					"width": "60",
-					"height": "60",
-					"viewbox": ""
+					"id": "icon-toys"
 				}
 			},
 			{
 				"name": "Bowls and cups",
 				"svg": {
-					"id": "bowls",
-					"width": "60",
-					"height": "56",
-					"viewbox": ""
+					"id": "icon-bowls-and-cups"
 				}
 			},
 			{
 				"name": "Shampoos",
 				"svg": {
-					"id": "shampoos",
-					"width": "31",
-					"height": "50",
-					"viewbox": ""
+					"id": "icon-shampoos"
 				}
 			},
 			{
 				"name": "Vitamins",
 				"svg": {
-					"id": "vitamins",
-					"width": "60",
-					"height": "54",
-					"viewbox": ""
+					"id": "icon-vitamins"
 				}
 			},
 			{
 				"name": "Medicines",
 				"svg": {
-					"id": "medicines",
-					"width": "60",
-					"height": "60",
-					"viewbox": ""
+					"id": "icon-medicines"
 				}
 			},
 			{
 				"name": "Collars / leashes",
 				"svg": {
-					"id": "collars",
-					"width": "60",
-					"height": "52",
-					"viewbox": ""
+					"id": "icon-collars-leashes"
 				}
 			},
 			{
 				"name": "Sleeping areas",
 				"svg": {
-					"id": "sleepPlace",
-					"width": "58",
-					"height": "60",
-					"viewbox": ""
+					"id": "icon-sleeping-area"
 				}
 			}
 		]
@@ -221,28 +200,33 @@
 				"name": "Katrine",
 				"href": "#nowhere",
 				"img": {
-					"src": "#nowhere",
-					"width": "",
-					"height": "",
-					"alt": "Katerine"
+					"name": "pets-katrine",
+					"format": "png",
+					"width": "270",
+					"height": "270",
+					"alt": "Cat Katerine"
 				}
 			},
 			{
 				"name": "Jennifer",
 				"href": "#nowhere",
 				"img": {
-					"width": "",
-					"height": "",
-					"alt": "Jennifer"
+					"name": "pets-jennifer",
+					"format": "png",
+					"width": "270",
+					"height": "270",
+					"alt": "Dog Jennifer"
 				}
 			},
 			{
 				"name": "Woody",
 				"href": "#nowhere",
 				"img": {
-					"width": "",
-					"height": "",
-					"alt": "Katerine"
+					"name": "pets-woody",
+					"format": "png",
+					"width": "270",
+					"height": "270",
+					"alt": "Dog Woody"
 				}
 			}
 		],

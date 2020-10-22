@@ -1,7 +1,12 @@
 {
   "footer": {
-    "socials": {
-
+    "title": "Our contacts",
+    "img": {
+      "name": "fotter-puppy",
+      "format": "png",
+      "width": "300",
+      "height": "310",
+      "alt": "Puppy in footer"
     }
   }
 }

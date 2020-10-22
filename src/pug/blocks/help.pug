@@ -5,5 +5,5 @@ section#help.help
       each item in help.list
         li.help__item
           h3.help__name #{item.name}
-          svg.help__svg(viewBox=item.viewbox width=item.width height=item.height)
-            use(xlink:href=`#${item.id}`)
+          svg.help__svg(viewBox="0 0 60 60" width=60 height=60)
+            use(xlink:href=`#${item.svg.id}`)

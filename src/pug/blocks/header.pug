@@ -11,6 +11,6 @@ header.header
       h2.title.title--white.title--big.header__subtitle #{header.content.title}
       p.header__text #{header.content.text}
       a.button.header__button(href=header.content.button.href) #{header.content.button.text}
-    img.header__image(width=header.content.img.width height=header.content.img.height alt=header.content.img.alt)
+    img.header__image(src=`images/${header.content.img.name}.${header.content.img.format}` width=header.content.img.width height=header.content.img.height alt=header.content.img.alt)
 
 

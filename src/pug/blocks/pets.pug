@@ -1,4 +1,4 @@
-section.pets
+section#pets.pets
   .pets__wrapper
     h2.pets__title #{pets.title}
     .pets__slider.swiper-container
@@ -6,7 +6,7 @@ section.pets
         each pet in pets.list
           li.pets__card.swiper-slide
             h3.pets__name #{pet.name}
-            img.pets__photo(src=pet.src width=pet.img.width height=pet.img.height alt=pet.img.alt)
+            img.pets__photo(src=`images/${pet.img.name}.${pet.img.format}` width=pet.img.width height=pet.img.height alt=pet.img.alt)
             a.button.pets__more-link(href=pet.href) Learn more
       .pets__controls
         each control in pets.controls

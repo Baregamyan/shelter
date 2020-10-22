@@ -9,9 +9,11 @@
       }
     ],
     "img": {
-      "width": "",
-      "height": "",
-      "alt": ""
+      "name": "about-pets",
+      "format": "png",
+      "width": "300",
+      "height": "408",
+      "alt": "Dog with cat"
     }
   }
 }

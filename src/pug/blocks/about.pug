@@ -4,5 +4,4 @@ section#about.about
       h2.title.about__title #{about.title}
       each paragraph in about.paragraphs
         p.about__text #{paragraph.text}
-    img.about__img(width=about.img.width height=about.img.height alt=about.img.alt)
-
+    img.about__img(src=`images/${about.img.name}.${about.img.format}` width=about.img.width height=about.img.height alt=about.img.alt)

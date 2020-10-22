@@ -6,26 +6,31 @@
         "name": "Katrine",
         "href": "#nowhere",
         "img": {
-          "src": "#nowhere",
-          "width": "",
-          "height": "",
-          "alt": "Katerine"
+          "name": "pets-katrine",
+          "format": "png",
+          "width": "270",
+          "height": "270",
+          "alt": "Cat Katerine"
         }
       }, {
         "name": "Jennifer",
         "href": "#nowhere",
         "img": {
-          "width": "",
-          "height": "",
-          "alt": "Jennifer"
+          "name": "pets-jennifer",
+          "format": "png",
+          "width": "270",
+          "height": "270",
+          "alt": "Dog Jennifer"
         }
       }, {
         "name": "Woody",
         "href": "#nowhere",
         "img": {
-          "width": "",
-          "height": "",
-          "alt": "Katerine"
+          "name": "pets-woody",
+          "format": "png",
+          "width": "270",
+          "height": "270",
+          "alt": "Dog Woody"
         }
       }
     ],
