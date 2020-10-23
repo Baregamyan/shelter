@@ -1,0 +1,18 @@
+.title {
+  font-family: $font-family-serif;
+  font-size: $font-size-title;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing-wide;
+
+  line-height: $line-height-title;
+
+  color: $color-title;
+  &--large {
+    font-size: 44px;
+  }
+  &--white {
+    max-width: 310px;
+    margin-bottom: 42px;
+    color: $color-white;
+  }
+}

@@ -1,0 +1,45 @@
+.help {
+  margin-bottom: 45px;
+  padding-top: 80px;
+}
+
+.help__wrapper {
+  @include container;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help__title {
+  max-width: 310px;
+  text-align: center;
+}
+
+.help__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1026px;
+  min-height: 281px;
+  list-style: none;
+}
+
+.help__svg {
+  margin-bottom: 30px;
+  order: 1;
+  fill: $color-primary-darker;
+}
+
+.help__item {
+  margin-bottom: 55px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help__name {
+  font-family: $font-family-serif;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing-wide;
+  order: 2;
+}

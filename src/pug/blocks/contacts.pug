@@ -1,10 +1,9 @@
 section#contacts.contacts
-  .contacts__wrapper
-    ul.contacts__list
-      each contact in contacts.list
-        li.contacts__item
-          h3.title.contacts__title #{donate.title}
-          ul.contacts__content-list
-            each item in contact.contentList
-              li.contacts__content-item
-                a.contacts__link(class=item.modifyer href=item.href) #{item.text}
+  ul.contacts__list
+    each contact in contacts.list
+      li.contacts__item
+        h3.title.contacts__title #{contact.title}
+        ul.contacts__content-list
+          each item in contact.contentList
+            li.contacts__content-item
+              a.contacts__link(class=`contacts__link--${item.modifyer}` href=item.href) #{item.text}

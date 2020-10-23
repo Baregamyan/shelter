@@ -1,34 +1,19 @@
 body {
   font-family: $font-family;
-  font-weight: normal;
+  font-weight: $font-weight;
   color: $color-base;
   background-color: $color-bg;
   letter-spacing: $letter-spacing;
+  line-height: $line-height;
 
-  min-width: $width-xs;
-
-  @media #{$media-sm} {
-    min-width: $width-sm;
-  }
-  @media #{$media-md} {
-    min-width: $width-md;
-  }
-  @media #{$media-lg} {
-    min-width: $width-lg;
-  }
-  @media #{$media-xl} {
-    min-width: $width-xl;
-  }
+  min-width: $width-desktop;
 }
 
 a {
   background-color: transparent;
   &:hover,
   &:focus {
-    color: $color-hover;
     text-decoration: none;
   }
-  &:active {
-    color: $color-active;
-  }
+
 }

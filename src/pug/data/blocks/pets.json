@@ -1,6 +1,6 @@
 {
   "pets": {
-    "title": "Our friends who are looking for a house",
+    "title": "Our friends who <br> are looking for a house",
     "list": [
       {
         "name": "Katrine",

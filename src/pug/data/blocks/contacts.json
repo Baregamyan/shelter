@@ -11,7 +11,7 @@
           }, {
             "href": "#nowhere",
             "text": "+13 674 567 75 54",
-            "modifyer": "email"
+            "modifyer": "phone"
           }
         ]
       }, {
@@ -20,11 +20,11 @@
           {
             "href": "#nowhere",
             "text": "1 Central Street, Boston (entrance from the store)",
-            "modifyer": "location"
+            "modifyer": "marker"
           }, {
             "href": "#nowhere",
             "text": "18 South Park, London",
-            "modifyer": "location"
+            "modifyer": "marker"
           }
         ]
       }

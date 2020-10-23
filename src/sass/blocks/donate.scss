@@ -1,0 +1,66 @@
+.donate {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: $color-bg-secondary;
+}
+
+.donate__wrapper {
+  @include container;
+  max-width: 950px;
+  order: 2;
+  align-items: center;
+}
+
+.donate__content {
+  max-width: 360px;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.donate__title {
+  margin-bottom: 20px;
+}
+
+.donate__desc {
+
+  font-family: $font-family-serif;
+  letter-spacing: $letter-spacing-wide;
+  margin-bottom: 20px;
+}
+
+.donate__bank-link {
+  position: relative;
+  text-align: center;
+  padding: 10px 15px 10px 50px;
+  margin-bottom: 20px;
+
+  &::before {
+    position: absolute;
+    content: "";
+
+    width: 30px;
+    height: 23px;
+
+    top: 50%;
+    left: 15px;
+
+    transform: translateY(-50%);
+
+    background-image: url("../images/credit-card.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.donate__terms {
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+
+.donate__img {
+  margin-right: 30px;
+}
+
+
+

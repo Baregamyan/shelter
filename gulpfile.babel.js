@@ -67,6 +67,7 @@ const path = {
  * Основные задачи
  */
 export const styles = () => src(path.styles.compile)
+  .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
   .pipe(sass.sync().on('error', sass.logError))
   .pipe(csscomb())
   .pipe(dest(path.styles.save))

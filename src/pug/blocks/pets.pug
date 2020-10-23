@@ -1,8 +1,8 @@
 section#pets.pets
   .pets__wrapper
-    h2.pets__title #{pets.title}
+    h2.title.pets__title !{pets.title}
     .pets__slider.swiper-container
-      ul.pets__wrapper.swiper-wrapper
+      ul.pets__list.swiper-wrapper
         each pet in pets.list
           li.pets__card.swiper-slide
             h3.pets__name #{pet.name}
@@ -11,7 +11,9 @@ section#pets.pets
       .pets__controls
         each control in pets.controls
           button.pets__control(class=`pets__control--${control.direction}` type="button" aria-label=control.aria.label)
-      a.button.button--solid.pets__button(href=pets.button.href) #{pets.button.text}
+            svg.pets__control-svg(viewBox="0 0 14 6" width="14" height="6")
+              use(xlink:href="#arrow")
+    a.button.button--solid.pets__button(href=pets.button.href) #{pets.button.text}
 
 
 

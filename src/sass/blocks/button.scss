@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 15px 45px;
+
+  border-radius: 100px;
+
+  font-size: 17px;
+  font-family: $font-family-serif;
+  letter-spacing: $letter-spacing-wide;
+  color: $color-black;
+  text-decoration: none;
+  border: 2px solid $color-primary-darker;
+
+  &--solid {
+    background-color: $color-primary-darker;
+    border: none;
+  }
+}

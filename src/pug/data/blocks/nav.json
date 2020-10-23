@@ -5,16 +5,16 @@
     },
     "list": [
       {
-        "href": "#nowhere",
+        "href": "#start",
         "name": "About the shelter"
       }, {
-        "href": "#nowhere",
+        "href": "#pets",
         "name": "Our pets"
       }, {
-        "href": "#nowhere",
+        "href": "#help",
         "name": "Help the shelter"
       }, {
-        "href": "#nowhere",
+        "href": "#contacts",
         "name": "Contacts"
       }
     ]

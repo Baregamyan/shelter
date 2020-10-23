@@ -1,6 +1,6 @@
 {
   "donate": {
-    "title": "You can also make a donation",
+    "title": "You can also <br> make a donation",
     "desc": "Name of the bank / Type of bank account",
     "link": {
       "href": "#nowhere",

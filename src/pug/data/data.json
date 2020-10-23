@@ -30,7 +30,7 @@
 					{
 						"href": "#nowhere",
 						"text": "+13 674 567 75 54",
-						"modifyer": "email"
+						"modifyer": "phone"
 					}
 				]
 			},
@@ -40,19 +40,19 @@
 					{
 						"href": "#nowhere",
 						"text": "1 Central Street, Boston (entrance from the store)",
-						"modifyer": "location"
+						"modifyer": "marker"
 					},
 					{
 						"href": "#nowhere",
 						"text": "18 South Park, London",
-						"modifyer": "location"
+						"modifyer": "marker"
 					}
 				]
 			}
 		]
 	},
 	"donate": {
-		"title": "You can also make a donation",
+		"title": "You can also <br> make a donation",
 		"desc": "Name of the bank / Type of bank account",
 		"link": {
 			"href": "#nowhere",
@@ -70,7 +70,7 @@
 	"footer": {
 		"title": "Our contacts",
 		"img": {
-			"name": "fotter-puppy",
+			"name": "footer-puppy",
 			"format": "png",
 			"width": "300",
 			"height": "310",
@@ -78,10 +78,8 @@
 		}
 	},
 	"header": {
-		"title": {
-			"name": "Cozy House",
-			"desc": "Shelter for pets in Boston"
-		},
+		"title": "Cozy House",
+		"desc": "Shelter for pets in Boston",
 		"content": {
 			"title": "Not only people need a house",
 			"text": "We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!",
@@ -176,25 +174,25 @@
 		},
 		"list": [
 			{
-				"href": "#nowhere",
+				"href": "#start",
 				"name": "About the shelter"
 			},
 			{
-				"href": "#nowhere",
+				"href": "#pets",
 				"name": "Our pets"
 			},
 			{
-				"href": "#nowhere",
+				"href": "#help",
 				"name": "Help the shelter"
 			},
 			{
-				"href": "#nowhere",
+				"href": "#contacts",
 				"name": "Contacts"
 			}
 		]
 	},
 	"pets": {
-		"title": "Our friends who are looking for a house",
+		"title": "Our friends who <br> are looking for a house",
 		"list": [
 			{
 				"name": "Katrine",

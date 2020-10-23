@@ -3,13 +3,7 @@
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
-  padding-right: $gapSm;
-  padding-left: $gapSm;
-  @media #{$media-lg} {
-    max-width: $width-xl;
-  }
-}
-
-@mixin title {
-
+  padding-right: $gap;
+  padding-left: $gap;
+  max-width: $width-desktop;
 }

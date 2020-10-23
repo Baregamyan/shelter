@@ -1,0 +1,60 @@
+.header {
+  margin-bottom: 60px;
+
+  background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+  color: $color-base-light;
+}
+
+.header__wrapper {
+  padding-top: 30px;
+  // padding-bottom: 30px;
+  @include container;
+  flex-direction: column;
+}
+
+.header__navigation {
+  margin-bottom: 60px;
+}
+
+.header__title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__title {
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: $letter-spacing;
+  color: $color-primary;
+}
+
+.header__text-desc {
+  font-size: 13px;
+  letter-spacing: .1em;
+}
+
+.header__trigger {
+  display: none;
+}
+
+.header__lead {
+  margin-bottom: 32px;
+  letter-spacing: $letter-spacing;
+}
+
+.header__text {
+  margin-bottom: 41px;
+  color: $color-base-light-dark;
+}
