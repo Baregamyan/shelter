@@ -59,6 +59,7 @@
     }
   }
   &--marker {
+    line-height: $line-height-title;
     &::before {
       background-image: url(../images/icon-marker.svg);
     }
