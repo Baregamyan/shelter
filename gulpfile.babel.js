@@ -105,7 +105,7 @@ export const views = () => src(`${path.views.compile}*.pug`)
   }))
   .pipe(dest(path.views.save));
 
-export const scripts = () => src(`${path.scripts.root}`)
+export const scripts = () => src(`${path.scripts.root}/script.js`)
   .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
   .pipe(rollup({
     plugins: [
