@@ -2,7 +2,7 @@ import Swiper, { Navigation } from 'swiper';
 
 Swiper.use([Navigation]);
 
-const Pets_Slider = new Swiper('.pets__slider', {
+const Pets_Slider = new Swiper(`.pets__slider`, {
   loop: true,
   spaceBetween: 100,
   breakpoints: {
@@ -19,7 +19,11 @@ const Pets_Slider = new Swiper('.pets__slider', {
     }
   },
   navigation: {
-    nextEl: '.pets__control--next',
-    prevEl: '.pets__control--prev',
+    nextEl: `.pets__control--next`,
+    prevEl: `.pets__control--prev`,
+  },
+  a11y: {
+    nextSlideMessage: `Next slide`,
+    prevSlideMessage: `Prev slide`
   }
 })
