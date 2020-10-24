@@ -4,8 +4,8 @@
 }
 
 .pets__wrapper {
-  @include container;
   position: relative;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -16,10 +16,15 @@
   max-width: 400px;
 }
 
+.pets__slider {
+  width: 990px;
+  overflow: auto;
+
+}
+
 .pets__list {
   display: flex;
   justify-content: space-between;
-
   margin-bottom: 60px;
   list-style: none;
   padding-left: 0;
@@ -29,7 +34,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 90px;
   &:last-of-type {
     margin-right: 0;
   }
@@ -85,4 +89,7 @@
   border-radius: 100px;
   border: 2px solid $color-primary-darker;
   background-color: transparent;
+  &--next {
+    transform: rotate(-180deg);
+  }
 }
