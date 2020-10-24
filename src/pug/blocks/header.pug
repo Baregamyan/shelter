@@ -1,10 +1,11 @@
 header#start.header
   .header__wrapper
     .header__navigation
-      .header__title-wrapper
-        h1.title.header__title #{header.title}
-        p.header__text-desc #{header.desc}
-      include ../blocks/nav
+      .header__navigation-wrapper
+        .header__title-wrapper
+          h1.title.header__title #{header.title}
+          p.header__text-desc #{header.desc}
+        include ../blocks/nav
       button.header__trigger(type="button" aria-label=header.trigger.aria.label aria-haspopup=header.trigger.aria.haspopup aria-expanded=header.trigger.aria.expanded)
         span.header__burger
     .header__content
@@ -13,5 +14,6 @@ header#start.header
         p.header__text #{header.content.text}
         a.button.button--solid.header__button(href=header.content.button.href) #{header.content.button.text}
       img.header__image(src=`images/${header.content.img.name}.${header.content.img.format}` width=header.content.img.width height=header.content.img.height alt=header.content.img.alt)
+    span.header__trigger
 
 
