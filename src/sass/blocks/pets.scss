@@ -32,36 +32,6 @@
   padding-left: 0;
 }
 
-.pets__card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  &:last-of-type {
-    margin-right: 0;
-  }
-}
-
-.pets__name {
-  margin-bottom: 30px;
-  font-family: $font-family-serif;
-  font-size: 20px;
-  font-weight: $font-weight;
-  letter-spacing: $letter-spacing-wide;
-  order: 2;
-}
-
-.pets__photo {
-  margin-bottom: 30px;
-}
-
-.pets__photo {
-  order: 1;
-}
-
-.pets__more-link {
-  order: 2;
-}
-
 .pets__button {
   margin-bottom: 100px;
   order: 3;
