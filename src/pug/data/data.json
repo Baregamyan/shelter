@@ -17,6 +17,122 @@
 			"alt": "Dog with cat"
 		}
 	},
+	"catalog": {
+		"title": "Our friends who <br> are looking for a house",
+		"list": [
+			{
+				"name": "Katrine",
+				"href": "#nowhere",
+				"img": {
+					"name": "pets-katrine",
+					"alt": "Cat Katrine"
+				}
+			},
+			{
+				"name": "Jennifer",
+				"href": "#nowhere",
+				"img": {
+					"name": "pets-jennifer",
+					"alt": "Puppy Jennifer"
+				}
+			},
+			{
+				"name": "Woody",
+				"href": "#nowhere",
+				"img": {
+					"name": "pets-woody",
+					"alt": "Dob Woody"
+				}
+			},
+			{
+				"name": "Sophia",
+				"href": "#nowhere",
+				"img": {
+					"name": "pets-sophia",
+					"alt": "Puppy Sophia"
+				}
+			},
+			{
+				"name": "Timmy",
+				"href": "#nowhere",
+				"img": {
+					"name": "pets-timmy",
+					"alt": "Cat Timmy"
+				}
+			},
+			{
+				"name": "Charly",
+				"href": "#nowhere",
+				"img": {
+					"name": "pets-charly",
+					"alt": "Puppy Charly"
+				}
+			},
+			{
+				"name": "Scarlett",
+				"href": "#nowhere",
+				"img": {
+					"name": "pets-scarlett",
+					"alt": "Puppy Scarlett"
+				}
+			},
+			{
+				"name": "Freddie",
+				"href": "#nowhere",
+				"img": {
+					"name": "pets-freddie",
+					"alt": "Kitten Freddie"
+				}
+			}
+		],
+		"pagination": [
+			{
+				"modifyer": "first",
+				"href": "#nowhere",
+				"isDisabled": true,
+				"text": "<<",
+				"aria": {
+					"label": "The first page"
+				}
+			},
+			{
+				"modifyer": "prev",
+				"href": "#nowhere",
+				"isDisabled": true,
+				"text": "<",
+				"aria": {
+					"label": "Previously page"
+				}
+			},
+			{
+				"modifyer": "current",
+				"href": null,
+				"isDisabled": false,
+				"text": "1",
+				"aria": {
+					"label": "Current page number"
+				}
+			},
+			{
+				"modifyer": "next",
+				"href": "#nowhere",
+				"isDisabled": false,
+				"text": ">",
+				"aria": {
+					"label": "Next page"
+				}
+			},
+			{
+				"modifyer": "last",
+				"href": "#nowhere",
+				"isDisabled": false,
+				"text": ">>",
+				"aria": {
+					"label": "The last page"
+				}
+			}
+		]
+	},
 	"contacts": {
 		"list": [
 			{
@@ -78,8 +194,11 @@
 		}
 	},
 	"header": {
-		"title": "Cozy House",
-		"desc": "Shelter for pets in Boston",
+		"title": {
+			"href": "index.html",
+			"name": "Cozy House",
+			"desc": "Shelter for pets in Boston"
+		},
 		"content": {
 			"title": "Not only people need a house",
 			"text": "We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!",
@@ -178,7 +297,7 @@
 				"name": "About the shelter"
 			},
 			{
-				"href": "#pets",
+				"href": "pets.html",
 				"name": "Our pets"
 			},
 			{

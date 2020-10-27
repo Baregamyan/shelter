@@ -1,0 +1,10 @@
+section.catalog
+  .catalog__wrapper
+    h2.title.catalog__title !{catalog.title}
+    ul.catalog__list
+      each pet in catalog.list
+        +card(pet, false)
+    .catalog__pagination
+      each pagination in catalog.pagination
+        a.button.catalog__pagination-button(class=pagination.isDisabled ? `catalog__pagination-button--${pagination.modifyer} catalog__pagination-button--disabled` : `catalog__pagination-button--${pagination.modifyer}` href=pagination.href aria-label=pagination.aria.label) #{pagination.text}
+

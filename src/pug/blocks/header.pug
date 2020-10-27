@@ -2,9 +2,9 @@ header#start.header(class=data.main ? "header--main" : null)
   .header__wrapper
     .header__navigation
       .header__navigation-wrapper
-        .header__title-wrapper
-          h1.title.header__title #{header.title}
-          p.header__text-desc #{header.desc}
+        a.header__title-link(href=header.title.href)
+          h1.title.header__title #{header.title.name}
+          p.header__text-desc #{header.title.desc}
         include ../blocks/nav
       button.header__trigger(type="button" aria-label=header.trigger.aria.label aria-haspopup=header.trigger.aria.haspopup aria-expanded=header.trigger.aria.expanded)
         span.header__burger

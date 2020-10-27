@@ -25,10 +25,11 @@
   color: $color-title;
   text-decoration: none;
   &:hover {
-    color: $color-base-light;
+    color: $color-black;
   }
   &--active {
     position: relative;
+    color: $color-black;
     &::before {
       position: absolute;
       content: "";

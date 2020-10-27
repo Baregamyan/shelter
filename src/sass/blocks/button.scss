@@ -12,8 +12,14 @@
   text-decoration: none;
   border: 2px solid $color-primary-darker;
 
+  transition: $transition;
+
   &--solid {
     background-color: $color-primary-darker;
     border: none;
+  }
+  &:hover, &:focus {
+    background-color: $color-primary;
+    border-color: $color-primary;
   }
 }

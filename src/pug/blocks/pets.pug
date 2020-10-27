@@ -4,13 +4,10 @@ section#pets.section.pets
     .pets__slider.swiper-container
       ul.pets__list.swiper-wrapper
         each pet in pets.list
-          li.card.swiper-slide
-            h3.card__name #{pet.name}
-            img.card__photo(src=`images/${pet.img.name}.${pet.img.format}` width=pet.img.width height=pet.img.height alt=pet.img.alt)
-            a.button.card__more-link(href=pet.href) Learn more
+          +card(pet, true)
       .pets__controls
         each control in pets.controls
-          button.pets__control(class=`pets__control--${control.direction}` type="button" aria-label=control.aria.label)
+          button.button.pets__control(class=`pets__control--${control.direction}` type="button" aria-label=control.aria.label)
             svg.pets__control-svg(viewBox="0 0 14 6" width="14" height="6")
               use(xlink:href="#arrow")
     a.button.button--solid.pets__button(href=pets.button.href) #{pets.button.text}

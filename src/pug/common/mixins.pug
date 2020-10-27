@@ -1,1 +1,5 @@
-mixin something
+mixin card(data, isSlide)
+  li.card(class=isSlide ? 'swiper-slide' : null)
+    h3.card__name #{data.name}
+    img.card__photo(src=`images/${data.img.name}.png` width=data.img.width height=data.img.height alt=data.img.alt)
+    a.button.card__more-link(href=data.href) Learn more

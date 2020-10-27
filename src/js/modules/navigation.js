@@ -7,8 +7,7 @@ export class NavigationMenu {
     this.el = this.header.querySelector(`.${this.navigationClass}`);
     // this.trigger = document.querySelector(`.${triggerClass}`);
     this.links = this.el.querySelectorAll(`.nav__link`);
-
-    this.activeLink = this.links[0];
+    this.activeLink = this.header.querySelector(`.nav__link--active`);
 
     this.isOpen = true;
   }

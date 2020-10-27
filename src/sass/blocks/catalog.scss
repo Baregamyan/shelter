@@ -1,0 +1,73 @@
+.catalog {
+  padding-top: 80px;
+
+  background-color: $color-bg-secondary;
+}
+
+.catalog__wrapper {
+  @include container;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog__title {
+  max-width: 400px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.catalog__list {
+  max-width: 1200px;
+  box-sizing: border-box;
+  display: grid;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 60px;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  & .card {
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+.catalog__pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+
+  margin-bottom: 100px;
+}
+
+.catalog__pagination-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  font-size: 20px;
+  font-family: $font-family-serif;
+
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+
+  // border: 2px solid $color-primary-darker;
+  border-radius: 100px;
+  // color: $color-black;
+  &--current {
+    background-color: $color-primary-darker;
+  }
+  &--disabled {
+    cursor: initial;
+    color: $color-base-light-dark;
+    border-color: $color-base-light-dark;
+    &:hover {
+      background-color: inherit;
+      border-color: inherit;
+    }
+  }
+}

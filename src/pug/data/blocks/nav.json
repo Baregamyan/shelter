@@ -8,7 +8,7 @@
         "href": "#start",
         "name": "About the shelter"
       }, {
-        "href": "#pets",
+        "href": "pets.html",
         "name": "Our pets"
       }, {
         "href": "#help",
