@@ -1,4 +1,4 @@
-header#start.header
+header#start.header(class=data.main ? "header--main" : null)
   .header__wrapper
     .header__navigation
       .header__navigation-wrapper
@@ -8,12 +8,13 @@ header#start.header
         include ../blocks/nav
       button.header__trigger(type="button" aria-label=header.trigger.aria.label aria-haspopup=header.trigger.aria.haspopup aria-expanded=header.trigger.aria.expanded)
         span.header__burger
-    .header__content
-      .header__desc
-        h2.title.title--white.title--large.header__lead #{header.content.title}
-        p.header__text #{header.content.text}
-        a.button.button--solid.header__button(href=header.content.button.href) #{header.content.button.text}
-      img.header__image(src=`images/${header.content.img.name}.${header.content.img.format}` width=header.content.img.width height=header.content.img.height alt=header.content.img.alt)
-    span.header__trigger
+    if data.main
+      .header__content
+        .header__desc
+          h2.title.title--white.title--large.header__lead #{header.content.title}
+          p.header__text #{header.content.text}
+          a.button.button--solid.header__button(href=header.content.button.href) #{header.content.button.text}
+        img.header__image(src=`images/${header.content.img.name}.${header.content.img.format}` width=header.content.img.width height=header.content.img.height alt=header.content.img.alt)
+      span.header__trigger
 
 

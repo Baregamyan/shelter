@@ -30,12 +30,10 @@ export class NavigationMenu {
   }
 
   scroll() {
-    if (window.scrollY > this.el.offsetHeight) {
+    if (window.scrollY > 0) {
       this.el.classList.toggle(`${this.navigationClass}--fixed`, true);
-      this.header.style.paddingTop = `${this.el.offsetHeight}px`
     } else {
       this.el.classList.toggle(`${this.navigationClass}--fixed`, false);
-      this.header.style.paddingTop = `0px`;
     }
   }
 }

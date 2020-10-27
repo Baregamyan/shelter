@@ -1,40 +1,55 @@
 .header {
   margin-bottom: 60px;
+  background-color: $color-white;
+  &--main {
+    background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    color: $color-base-light;
 
-  background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
-  color: $color-base-light;
+    .header__navigation {
+      & .nav__link {
+        color: $color-base-light-dark;
+      }
+    }
+    & .header__title {
+      color: $color-primary;
+    }
+    & .header__text-desc {
+      color: $color-white;
+    }
+  }
 }
 
 .header__wrapper {
-
-  // padding-bottom: 30px;
   @include container;
   flex-direction: column;
 }
 
 .header__navigation {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  top: 0;
+  left: 0;
   padding-top: 30px;
-  margin-bottom: 60px;
-  &--fixed {
-    position: fixed;
-    margin-bottom: 0;
-    width: 100vw;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
-    & .header__navigation-wrapper {
-      @include container;
+  padding-right: $gap;
+  padding-left: $gap;
+  background-color: transparent;
+  transition: $transition;
 
-    }
+  &--fixed {
+    background-color: #5B483A;
   }
+
 }
 
 .header__navigation-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  max-width: $width-desktop;
+  flex-grow: 1;
 
 }
 
@@ -46,12 +61,7 @@
 .header__content {
   display: flex;
   align-items: center;
-}
-
-.header__navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding-top: 107px;
 }
 
 .header__title {
@@ -59,12 +69,12 @@
   font-size: 32px;
   line-height: 1.1;
   letter-spacing: $letter-spacing;
-  color: $color-primary;
 }
 
 .header__text-desc {
   font-size: 13px;
   letter-spacing: .1em;
+  color: $color-black;
 }
 
 .header__trigger {
