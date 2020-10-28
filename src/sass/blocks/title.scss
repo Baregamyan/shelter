@@ -15,4 +15,7 @@
     margin-bottom: 42px;
     color: $color-white;
   }
+  @media #{$media-desktop} {
+    font-size: $font-size-title-tablet;
+  }
 }

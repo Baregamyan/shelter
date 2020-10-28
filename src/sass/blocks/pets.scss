@@ -20,16 +20,24 @@
 }
 
 .pets__slider {
-  width: 990px;
+  max-width: 990px;
+  width: 100%;
   overflow: hidden;
+  @media #{$media-desktop} {
+    max-width: 580px;
+  }
 }
 
 .pets__list {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   margin-bottom: 60px;
   list-style: none;
   padding-left: 0;
+  & .card {
+    width: 30%;
+  }
 }
 
 .pets__button {
@@ -53,6 +61,10 @@
 }
 
 .pets__control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   width: 52px;
   height: 52px;

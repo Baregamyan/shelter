@@ -32,7 +32,8 @@
 }
 
 .header__navigation {
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -83,6 +84,9 @@
   display: flex;
   align-items: center;
   padding-top: 107px;
+  @media #{$media-desktop} {
+    padding-top: 150px;
+  }
 }
 
 .header__title {
@@ -93,7 +97,7 @@
 }
 
 .header__text-desc {
-  font-size: 13px;
+  // font-size: 13px;
   letter-spacing: .1em;
   color: $color-black;
 }
@@ -110,4 +114,11 @@
 .header__text {
   margin-bottom: 41px;
   color: $color-base-light-dark;
+}
+
+.header__image {
+  @media #{$media-desktop} {
+    width: 50%;
+    height: 50%;
+  }
 }

@@ -9,6 +9,10 @@
   max-width: 950px;
   order: 2;
   align-items: center;
+  @media #{$media-desktop} {
+    flex-direction: column;
+
+  }
 }
 
 .donate__content {
@@ -23,7 +27,6 @@
 }
 
 .donate__desc {
-
   font-family: $font-family-serif;
   letter-spacing: $letter-spacing-wide;
   margin-bottom: 20px;

@@ -4,13 +4,15 @@ Swiper.use([Navigation]);
 
 const Pets_Slider = new Swiper(`.pets__slider`, {
   loop: true,
-  spaceBetween: 100,
+
   breakpoints: {
     1280: {
+      spaceBetween: 100,
       slidesPerView: 3
     },
 
     768: {
+      spaceBetween: 40,
       slidesPerView: 2
     },
 

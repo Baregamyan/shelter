@@ -6,4 +6,7 @@
   padding-right: $gap;
   padding-left: $gap;
   max-width: $width-desktop;
+  @media #{$media-desktop} {
+    max-width: $width-tablet;
+  }
 }

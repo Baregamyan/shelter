@@ -3,6 +3,8 @@ $font-family: "Arial", sans-serif;
 $font-family-serif: "Georgia", serif;
 $font-weight: 400;
 $font-size: 15px;
+$font-size-tablet: 12px;
+$font-size-title-tablet: 25px;
 $font-size-title: 35px;
 $line-height: 1.6;
 $line-height-title: 1.3;
@@ -30,9 +32,9 @@ $width-tablet: 768px;
 $width-desktop: 1280px;
 
 /* Медиа */
-$media-mobile: screen and (min-width: $width-mobile);
-$media-tablet: screen and (min-width: $width-tablet);
-$media-desktop: screen and (min-width: $width-desktop);
+$media-mobile: screen and (max-width: $width-mobile);
+$media-tablet: screen and (max-width: $width-tablet);
+$media-desktop: screen and (max-width: $width-desktop);
 
 /* Отступы */
 $gap: 40px;

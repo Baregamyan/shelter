@@ -26,6 +26,9 @@
   margin-bottom: 60px;
 
   grid-template-columns: repeat(4, 1fr);
+  @media #{$media-desktop} {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   & .card {
     margin-right: 40px;
