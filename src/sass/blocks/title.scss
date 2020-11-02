@@ -15,7 +15,10 @@
     margin-bottom: 42px;
     color: $color-white;
   }
-  @media #{$media-desktop} {
+  @media #{$media-tablet} {
     font-size: $font-size-title-tablet;
+  }
+  @media #{$media-tablet} {
+    text-align: center;
   }
 }

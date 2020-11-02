@@ -9,4 +9,7 @@
   @media #{$media-desktop} {
     max-width: $width-tablet;
   }
+  @media #{$media-tablet} {
+    max-width: $width-tablet;
+  }
 }

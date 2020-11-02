@@ -12,11 +12,12 @@ const Pets_Slider = new Swiper(`.pets__slider`, {
     },
 
     768: {
-      spaceBetween: 40,
+      spaceBetween: 30,
       slidesPerView: 2
     },
 
     320: {
+      spaceBetween: 10,
       slidesPerView: 1
     }
   },

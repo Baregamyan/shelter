@@ -24,8 +24,9 @@
   width: 100%;
   overflow: hidden;
   @media #{$media-desktop} {
-    max-width: 580px;
+    max-width: 80%;
   }
+
 }
 
 .pets__list {
@@ -50,6 +51,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  z-index: 1;
 
   box-sizing: border-box;
   top: 50%;
@@ -58,6 +60,9 @@
   padding: 0 40px;
 
   transform: translateY(-50%);
+  @media #{$media-tablet} {
+    top: calc(50% + 50px);
+  }
 }
 
 .pets__control {

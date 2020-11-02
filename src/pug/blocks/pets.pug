@@ -5,11 +5,11 @@ section#pets.section.pets
       ul.pets__list.swiper-wrapper
         each pet in pets.list
           +card(pet, true)
-      .pets__controls
-        each control in pets.controls
-          button.button.pets__control(class=`pets__control--${control.direction}` type="button" aria-label=control.aria.label)
-            svg.pets__control-svg(viewBox="0 0 14 6" width="14" height="6")
-              use(xlink:href="#arrow")
+    .pets__controls
+      each control in pets.controls
+        button.button.pets__control(class=`pets__control--${control.direction}` type="button" aria-label=control.aria.label)
+          svg.pets__control-svg(viewBox="0 0 14 6" width="14" height="6")
+            use(xlink:href="#arrow")
     a.button.button--solid.pets__button(href=pets.button.href) #{pets.button.text}
 
 

@@ -8,6 +8,10 @@
   box-sizing: content-box;
   justify-content: space-between;
   align-items: center;
+  @media #{$media-tablet} {
+    flex-direction: column;
+
+  }
 }
 
 .about__title {
@@ -16,10 +20,14 @@
 
 .about__img {
   order: 1;
-  @media #{$media-desktop} {
-    margin-right: 10px;
-    width: 30%;
-    height: 30%;
+  margin-right: 10px;
+  width: 30%;
+  height: 30%;
+  @media #{$media-tablet} {
+    width: 50%;
+    height: 50%;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 }
 

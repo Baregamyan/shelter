@@ -12,6 +12,10 @@ body {
     min-width: $width-tablet;
     font-size: $font-size-tablet;
   }
+  @media #{$media-tablet} {
+    min-width: $width-mobile;
+
+  }
   // @media #{$media-tablet} {
   //   min-width: $width-tablet;
   // }
@@ -26,5 +30,9 @@ a {
   &:focus {
     text-decoration: none;
   }
+}
 
+.popup-open {
+  height: 100vh;
+  overflow: hidden;
 }
