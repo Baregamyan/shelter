@@ -139,12 +139,12 @@
 				"title": "For questions and suggestions",
 				"contentList": [
 					{
-						"href": "#nowhere",
+						"href": "mailto:",
 						"text": "email@shelter.com",
 						"modifyer": "email"
 					},
 					{
-						"href": "#nowhere",
+						"href": "tel:",
 						"text": "+13 674 567 75 54",
 						"modifyer": "phone"
 					}

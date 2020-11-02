@@ -50,6 +50,12 @@
 
     background-repeat: no-repeat;
   }
+  &:hover {
+    color: $color-primary;
+  }
+  &:focus {
+    outline: $outline;
+  }
 
   &--email {
     &::before {
