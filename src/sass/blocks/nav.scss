@@ -53,6 +53,9 @@
   &:hover {
     color: $color-black;
   }
+  &:focus {
+    outline: $outline;
+  }
 
   &--active {
     position: relative;

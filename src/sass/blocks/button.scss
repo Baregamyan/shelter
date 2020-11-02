@@ -23,4 +23,7 @@
     background-color: $color-primary;
     border-color: $color-primary;
   }
+  &:focus {
+    outline: $outline;
+  }
 }
