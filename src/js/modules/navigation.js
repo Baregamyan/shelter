@@ -49,7 +49,7 @@ export class NavigationMenu {
   }
 
   toggle() {
-    this.header.classList.toggle(`header--main`, true);
+    this.header.classList.toggle(`header--main`);
     document.body.classList.toggle(`popup-open`);
     this.el.classList.toggle(`header__navigation--open`);
   }
