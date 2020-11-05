@@ -14,6 +14,7 @@ header#start.header(class=data.main ? "header--main" : null)
           h2.title.title--white.title--large.header__lead #{header.content.title}
           p.header__text #{header.content.text}
           a.button.button--solid.header__button(href=header.content.button.href) #{header.content.button.text}
-        img.header__image(src=`images/${header.content.img.name}.${header.content.img.format}` width=header.content.img.width height=header.content.img.height alt=header.content.img.alt)
+        +picture(header.content.img, 'header__img')
+        //- img.header__image(src=`images/${header.content.img.name}.${header.content.img.format}` width=header.content.img.width height=header.content.img.height alt=header.content.img.alt)
 
 

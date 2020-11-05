@@ -5,4 +5,4 @@ section#donate.section.donate
       p.donate__desc #{donate.desc}
       a.button.button--solid.donate__bank-link(href=donate.link.href) #{donate.link.text}
       i.donate__terms #{donate.terms}
-    img.donate__img(src=`images/${donate.img.name}.${donate.img.format}` width=donate.img.width height=donate.img.height alt=donate.img.alt)
+    +picture(donate.img, 'donate__img')

@@ -33,6 +33,7 @@
 
 .header__wrapper {
   @include container;
+  position: relative;
   flex-direction: column;
   @media #{$media-tablet} {
     padding-bottom: 30px;
@@ -137,7 +138,7 @@
 
 .header__content {
   display: flex;
-  position: relative;
+  box-sizing: border-box;
 
   align-items: center;
   padding-top: 107px;
@@ -227,16 +228,15 @@
   color: $color-base-light-dark;
 }
 
-.header__image {
-  @media #{$media-desktop} {
-    width: 50%;
-    height: 50%;
-  }
+.header__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   @media #{$media-tablet} {
     position: absolute;
-    width: 100%;
-    object-fit: contain;
+    height: 70%;
     left: 0;
+    bottom: 0;
     z-index: 0;
     opacity: .2;
   }
