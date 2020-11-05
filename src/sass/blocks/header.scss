@@ -108,6 +108,7 @@
     & .nav {
       background-color: #5b483a;
       left: 0;
+      visibility: visible;
       & .nav__link {
         color: $color-white;
       }

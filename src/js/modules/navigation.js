@@ -13,7 +13,6 @@ export class NavigationMenu {
 
     this.isOpen = true;
     this.isMobile = () => window.innerWidth <= 768 ? true : false;
-    console.log(this.isMobile());
   }
 
   init() {
@@ -49,8 +48,16 @@ export class NavigationMenu {
   }
 
   toggle() {
-    this.header.classList.toggle(`header--main`);
-    document.body.classList.toggle(`popup-open`);
-    this.el.classList.toggle(`header__navigation--open`);
+    if (this.isOpen) {
+      this.isOpen = false;
+      this.nav.setAttribute(`aria-hidden`, true);
+      document.body.classList.toggle(`popup-open`, true);
+      this.el.classList.toggle(`header__navigation--open`, true);
+    } else {
+      this.isOpen = true;
+      this.nav.setAttribute(`aria-hidden`, false);
+      document.body.classList.toggle(`popup-open`, false);
+      this.el.classList.toggle(`header__navigation--open`, false);
+    }
   }
 }
