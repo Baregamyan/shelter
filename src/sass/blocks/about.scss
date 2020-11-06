@@ -5,7 +5,9 @@
 .about__wrapper {
   @include container;
   max-width: 850px;
-  box-sizing: content-box;
+  padding-right: 0;
+  padding-left: 0;
+
   justify-content: space-between;
   align-items: center;
   @media #{$media-tablet} {
@@ -18,6 +20,7 @@
 }
 
 .about__img {
+  max-width: 300px;
   order: 1;
   margin-right: 10px;
   width: 100%;
