@@ -1,7 +1,7 @@
 {
-  "name": "gulp-starter",
+  "name": "shelter",
   "version": "1.0.0",
-  "description": "Базовый каркас для начала разработки на pug + sass",
+  "description": "Cozy House — Shelter for pets in Boston",
   "main": "gulpfile.babel.js",
   "dependencies": {},
   "devDependencies": {
@@ -57,20 +57,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baregamyan/gulp.git"
+    "url": "git+https://github.com/baregamyan/shelter.git"
   },
   "author": "Arsen Baregamyan",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/baregamyan/gulp-starter/issues"
+    "url": "https://github.com/baregamyan/shelter/issues"
   },
-  "homepage": "https://github.com/baregamyan/gulp-starter/",
+  "homepage": "https://github.com/baregamyan/shelter/",
   "babel": {
     "presets": [
       "@babel/preset-env"
     ]
   },
   "keywords": [
+    "Cozy House",
+    "pets shelter",
     "gulp",
     "pug",
     "scss"
