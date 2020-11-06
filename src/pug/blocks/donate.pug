@@ -3,6 +3,6 @@ section#donate.section.donate
     .donate__content
       h2.title.donate__title !{donate.title}
       p.donate__desc #{donate.desc}
-      a.button.button--solid.donate__bank-link(href=donate.link.href) #{donate.link.text}
+      a.button.button--solid.donate__bank-link(href=donate.link.href target="_blank" aria-label=donate.link.aria.label) #{donate.link.text}
       i.donate__terms #{donate.terms}
     +picture(donate.img, 'donate__img')

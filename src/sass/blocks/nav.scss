@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   transition: $transition;
-  visibility: hidden;
   @media #{$media-tablet} {
     position: absolute;
     top: 105px;
@@ -12,6 +11,7 @@
     display: flex;
     justify-content: center;
     background-color: $color-white;
+    visibility: hidden;
     & .nav__list {
       flex-direction: column;
       justify-content: center;
@@ -21,6 +21,9 @@
         font-size: 20px;
       }
     }
+  }
+  &--no-js {
+    display: none;
   }
 }
 

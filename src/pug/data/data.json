@@ -172,7 +172,10 @@
 		"desc": "Name of the bank / Type of bank account",
 		"link": {
 			"href": "#nowhere",
-			"text": "8380 2880 8028 8791 7435"
+			"text": "8380 2880 8028 8791 7435",
+			"aria": {
+				"label": "Make a donation"
+			}
 		},
 		"terms": "Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
 		"img": {
@@ -294,19 +297,23 @@
 		"list": [
 			{
 				"href": "#about",
-				"name": "About the shelter"
+				"name": "About the shelter",
+				"isUnique": true
 			},
 			{
 				"href": "pets.html",
-				"name": "Our pets"
+				"name": "Our pets",
+				"isUnique": true
 			},
 			{
 				"href": "#help",
-				"name": "Help the shelter"
+				"name": "Help the shelter",
+				"isUnique": true
 			},
 			{
 				"href": "#contacts",
-				"name": "Contacts"
+				"name": "Contacts",
+				"isUnique": false
 			}
 		]
 	},

@@ -1,0 +1,58 @@
+.nojs {
+  & .header__navigation {
+    position: static;
+  }
+  @media #{$media-tablet} {
+    & .header {
+      position: static;
+      &--main {
+        & .nav {
+          &--no-js {
+            & .nav__link {
+              color: $color-white;
+              border-bottom-color: $color-primary;
+            }
+          }
+        }
+      }
+    }
+
+    & .header__burger {
+      background-color: transparent;
+      &::before,
+      &::after {
+        top: 0;
+        left: 0;
+        background-color: $color-white;
+      }
+      &::before {
+        transform: rotate(45deg);
+
+      }
+      &::after {
+        transform: rotate(-45deg);
+      }
+    }
+    .header__img {
+      height: 50%;
+    }
+    & .nav {
+      &--no-js {
+        display: block;
+        background-color: transparent;
+        position: static;
+        visibility: visible;
+
+        height: initial;
+        & .nav__link {
+          text-align: center;
+          width: 80vw;
+          border-bottom: 2px solid $color-title;
+        }
+      }
+    }
+    & .card {
+      width: 100%;
+    }
+  }
+}

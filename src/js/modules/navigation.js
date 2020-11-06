@@ -50,12 +50,10 @@ export class NavigationMenu {
   toggle() {
     if (this.isOpen) {
       this.isOpen = false;
-      this.nav.setAttribute(`aria-hidden`, true);
       document.body.classList.toggle(`popup-open`, true);
       this.el.classList.toggle(`header__navigation--open`, true);
     } else {
       this.isOpen = true;
-      this.nav.setAttribute(`aria-hidden`, false);
       document.body.classList.toggle(`popup-open`, false);
       this.el.classList.toggle(`header__navigation--open`, false);
     }

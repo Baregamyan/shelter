@@ -6,16 +6,20 @@
     "list": [
       {
         "href": "#about",
-        "name": "About the shelter"
+        "name": "About the shelter",
+        "isUnique": true
       }, {
         "href": "pets.html",
-        "name": "Our pets"
+        "name": "Our pets",
+        "isUnique": true
       }, {
         "href": "#help",
-        "name": "Help the shelter"
+        "name": "Help the shelter",
+        "isUnique": true
       }, {
         "href": "#contacts",
-        "name": "Contacts"
+        "name": "Contacts",
+        "isUnique": false
       }
     ]
   }
