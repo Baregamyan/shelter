@@ -3,6 +3,7 @@
 
 ## Development
 1.Clone the project locally: `git clone git@github.com:Baregamyan/shelter.git`
+
 2.Install dependencies:
 ```nodejs
 npm install
