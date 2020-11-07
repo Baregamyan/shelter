@@ -2,10 +2,10 @@
   margin-bottom: 60px;
   min-height: 60px;
   background-color: $color-white;
-  transition: none;
+  transition: $transition;
   &--main {
-    background: $color-noise-bg;
-    background-size: cover;
+    background-color: $color-bg-special;
+    background: $color-bg-gradient;
     color: $color-base-light;
     & .nav__link {
       color: $color-base-light-dark;
@@ -57,8 +57,8 @@
   background-color: transparent;
   transition: $transition;
   &--fixed {
-    background: $color-noise-bg;
-    background-size: cover;
+    background: $color-bg-special;
+    background-color: $color-bg-special;
     color: $color-white;
     & .nav__link {
       color: $color-base-light-dark;
@@ -85,7 +85,7 @@
   }
   &--open {
     transition: none;
-    background: $color-bg-special;
+    background-color: $color-bg-special;
     & .header__title {
       color: $color-white;
     }
